@@ -11,7 +11,7 @@ MAINTAINER Hery
 
 RUN apt-get update
 RUN apt-get -y install git
-RUN git clone https://github.com/heisthedon/cyclops.git
+RUN git clone https://github.com/heisthedon/cyclops-api.git
 
 # Expose ports
 EXPOSE 80
