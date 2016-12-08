@@ -10,7 +10,7 @@ FROM eywalker/tensorflow
 MAINTAINER Hery
 
 RUN apt-get update
-RUN apt-get install git
+RUN apt-get -y install git
 RUN git clone https://github.com/heisthedon/cyclops.git
 
 # Expose ports
