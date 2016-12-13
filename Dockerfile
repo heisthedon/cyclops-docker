@@ -17,7 +17,7 @@ RUN git clone https://github.com/heisthedon/cyclops-api.git
 EXPOSE 80
 
 # Set the default directory where CMD will execute
-WORKDIR /cyclops
+WORKDIR /cyclops-api
 
 # Get pip to download and install requirements:
 RUN pip install -r requirement.txt
